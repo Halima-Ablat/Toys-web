@@ -1,4 +1,4 @@
-body {
+.background-image {
   background-image: url("assets/teddy.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -14,9 +14,27 @@ body {
   align-items: center;
 }
 
+.toys {
+  font-family: "Sour Gummy", serif;
+  font-size: 30px;
+}
+
 .front-font {
   margin-top: 80px;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
+  font-family: "Sour Gummy", serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.front-font p {
   font-size: 20px;
+}
+.pink-page {
+  background-color: rgb(249, 198, 205);
+  font-family: "Sour Gummy", serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
 }
