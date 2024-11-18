@@ -37,7 +37,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="text-white toys nav-link" to="/">
+              <Link className="text-white toys nav-link" to="/not-found">
                 Store
               </Link>
             </li>
