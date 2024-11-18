@@ -31,12 +31,6 @@ const spanStyle = {
   fontWeight: "bold",
 };
 
-const buttonLink = {
-  padding: "10px 15px",
-  borderRadius: "10px",
-  border: "none",
-};
-
 function ImageSlider() {
   return (
     <div className="slide-container" style={slideContainerStyle}>
@@ -45,9 +39,6 @@ function ImageSlider() {
           <div key={index}>
             <div style={{ ...divStyle, backgroundImage: `url(${image.url})` }}>
               <span style={{ ...spanStyle }}>{image.caption}</span>
-              {/* <Link to="/">
-                <button style={buttonLink}>Shop Now</button>
-              </Link> */}
             </div>
           </div>
         ))}
